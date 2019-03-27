@@ -1,0 +1,133 @@
+>>> #Testing Question 2.1
+>>>
+>>> min_enclosing_rectangle(1,1,1)
+(0, 0)
+>>> min_enclosing_rectangle(4.5, 10, 2)
+(5.5, -2.5)
+>>> min_enclosing_rectangle(-1, 10, 2)
+>>> min_enclosing_rectangle(500, 1000, 2000)
+(500, 1500)
+>>> #Testing Question 2.2
+>>>
+>>> series_sum()
+Please enter a non-negative integer: -10
+>>> series_sum()
+Please enter a non-negative integer: 0
+1000
+>>> series_sum()
+Please enter a non-negative integer: 5
+1001.463611111111
+>>> #Testing Question 2.3
+>>>
+>>> pell(0)
+0
+>>> pell(1)
+1
+>>> pell(2)
+2
+>>> pell(3)
+5
+>>> pell(-45)
+>>> pell(6)
+70
+>>> #Testing Question 2.4
+>>> 
+>>> countMembers("\\")
+1
+>>> countMembers("2\'")
+1
+>>> countMembers("1\'")
+0
+>>> countMembers("2aAb3?eE'_13")
+4
+>>> countMembers("one, Two")
+3
+>>> # Testing Question 2.5
+>>> 
+>>> casual_number("251")
+251
+>>> casual_number("1,aba,251")
+>>> casual_number("1,251")
+1251
+>>> casual_number("1251")
+1251
+>>> casual_number("-97,251")
+-97251
+>>> casual_number("-97251")
+-97251
+>>> casual_number("-,,,,")
+>>> casual_number("--97,251")
+>>> casual_number("-")
+>>> casual_number("-1,000,001")
+-1000001
+>>> casual_number("999,999,999,876")
+999999999876
+>>> casual_number("-2")
+-2
+>>> alienNumbers("a!ya!U!NaU")
+1095
+>>> alienNumbers("aaaUUU")
+129
+>>> alienNumbers("")
+0
+>>> #Testing Question 7
+>>> 
+>>> alienNumbersAgain("a!ya!U!NaU")
+1095
+>>> alienNumbersAgain("aaaUUU")
+129
+>>> alienNumbersAgain("")
+0
+>>> #Testing Question 8
+>>> 
+>>> encrypt("Hello, world")
+'dHlerlolwo ,'
+>>> encrypt("1234")
+'4132'
+>>> encrypt("12345")
+'51423'
+>>> encrypt("1")
+'1'
+>>> encrypt("123")
+'312'
+>>> encrypt("12")
+'21'
+>>> encrypt("Secret Message")
+'eSgeacsrseetM '
+>>> encrypt(",'4'r")
+"r,''4"
+>>> #Testing Question 2.9
+>>> 
+>>> oPify("aa")
+'aopa'
+>>> oPify("aB")
+'aoPB'
+>>> oPify("ooo")
+'oopoopo'
+>>> oPify("ax1")
+'aopx1'
+>>> oPify("abcdef22")
+'aopbopcopdopeopf22'
+>>> oPify("abcdef22x")
+'aopbopcopdopeopf22x'
+>>> oPify("aBCdef22x")
+'aoPBOPCOpdopeopf22x'
+>>> oPify("x")
+'x'
+>>> oPify("123456")
+'123456'
+>>> #Testing Question 2.10
+>>> 
+>>> nonrepetitive("")
+True
+>>> nonrepetitive("a")
+True
+>>> nonrepetitive("zrtzghtghtghtq")
+True
+>>> nonrepetitive("abcab")
+True
+>>> nonrepetitive("12341341")
+True
+>>> nonrepetitive("44")
+False
+>>> 
